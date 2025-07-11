@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
 
 export default function Home() {
   const [message, setMessage] = useState('');
@@ -61,7 +62,7 @@ export default function Home() {
 
       {/* Chat Container */}
       <div className="flex-1 max-w-4xl mx-auto w-full px-4 py-6">
-        <div className="bg-white rounded-lg shadow-sm border border-gray-200 h-[600px] flex flex-col">
+        <div className="bg-white rounded-lg shadow-sm border border-gray-200 h-[800px] flex flex-col">
           {/* Messages Area */}
           <div className="flex-1 overflow-y-auto p-6 space-y-4">
             {messages.length === 0 ? (
@@ -87,7 +88,13 @@ export default function Home() {
                         : 'bg-gray-100 text-gray-900'
                     }`}
                   >
-                    <p className="text-sm leading-relaxed">{msg.content}</p>
+                    <ReactMarkdown 
+                    components={{
+                      p: ({ children }) => <p className="text-base leading-relaxed">{children}</p>,
+                      strong: ({ children }) => <strong className="font-bold">{children}</strong>,
+                      em: ({ children }) => <em className="italic">{children}</em>,
+                    }}
+                    >{msg.content}</ReactMarkdown>
                   </div>
                 </div>
               ))
