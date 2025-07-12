@@ -1,4 +1,4 @@
-# Headstart Bot 🤖
+# Headstart-AI's Bot 🤖
 
 A modern, AI-powered chat interface built with Next.js and Tailwind CSS, designed to provide intelligent customer support for the Headstarter AIs platform.
 - Check it out here: https://ai-customer-support-virid.vercel.app/
@@ -57,14 +57,14 @@ Before you begin, ensure you have the following installed:
 
 ### Starting a Conversation
 1. Open the application in your browser
-2. You'll see a welcome message from Headstart Bot
+2. You'll see a welcome message from Headstarters Bot
 3. Type your message in the input field
 4. Press Enter or click the send button
 5. Wait for the AI response
 
 ### Supported Queries
 The bot is specifically trained to help with:
-- Headstarter platform questions
+- Headstarters platform questions
 - Technical interview practice guidance
 - Account and subscription issues
 - Troubleshooting login problems
@@ -77,7 +77,7 @@ The bot is specifically trained to help with:
 The bot uses OpenRouter API with the following settings:
 - **Model**: `deepseek/deepseek-chat-v3-0324:free`
 - **Base URL**: `https://openrouter.ai/api/v1`
-- **System Prompt**: Customized for Headstarter support
+- **System Prompt**: Customized for Headstarters support
 
 ### Customization
 You can modify the system prompt in `app/api/chat/route.js` to change the bot's behavior and knowledge base.
@@ -103,7 +103,7 @@ ai-bot/
 ## 🎨 UI Components
 
 ### Chat Interface
-- **Header**: Clean branding with Headstart Bot title
+- **Header**: Clean branding with Headstarter-Ai's Bot title
 - **Message Area**: Scrollable chat history with user/AI message bubbles
 - **Input Area**: Text input with send button and loading states
 - **Loading Animation**: Animated dots during AI processing
@@ -179,4 +179,4 @@ npm run lint         # Run ESLint
 5. Open a Pull Request
 ---
 
-**Built for Headstarter**
+**Built for Headstarter-AI**
