@@ -1,6 +1,7 @@
 # Headstart Bot 🤖
 
 A modern, AI-powered chat interface built with Next.js and Tailwind CSS, designed to provide intelligent customer support for the Headstarter AIs platform.
+- Check it out here: https://ai-customer-support-virid.vercel.app/
 
 ## ✨ Features
 
