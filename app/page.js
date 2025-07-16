@@ -55,7 +55,7 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-gray-200">
         <div className="max-w-4xl mx-auto px-4 py-4">
-          <h1 className="text-2xl font-bold text-gray-900">Headstarter-Ai's Bot</h1>
+          <h1 className="text-2xl font-bold text-gray-900">Headstarters Bot</h1>
           <p className="text-gray-600 mt-1">Your AI assistant ready to help you succeed!</p>
         </div>
       </header>
